@@ -1,0 +1,26 @@
+.p1{
+    background-color: red;
+}
+.p2{
+    background-color: aliceblue;
+}
+.p3{
+    background-color: antiquewhite;
+}
+
+@media all and (min-width:801px) {
+    .container{
+        width: 30%;
+        float: left;
+        padding: 10px;
+    }
+    .p3{
+        background-color: aqua;
+    }
+}
+
+@media print{
+    body{
+        background-color: none;
+    }
+}

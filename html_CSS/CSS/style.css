@@ -1,0 +1,42 @@
+/* Universal selector '*' */
+*{
+    color: royalblue;
+}
+/* inheritance */
+body{
+    color: rgb(13, 255, 0);
+}
+/* Tag selector/Multiple */
+h2,h3{
+    color: rgb(17, 140, 107);
+}
+h2{
+    color: red !important;
+}
+h1{
+    color: orange;
+}
+/* using id, not recommended */
+#softdev{
+    color: green;
+}
+/* using class */
+.greentext{
+    color: red;
+}
+/* child selector */
+div>p{
+    color: black;
+}
+/* decended selector */
+div a{
+    color: aqua;
+}
+/* sibiling selector - not used more */
+h1~h4{
+    color: lawngreen;
+}
+/* adjacent sibiling selector */
+h1+h2{
+    color: #000;
+}

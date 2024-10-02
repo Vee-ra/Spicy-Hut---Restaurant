@@ -1,0 +1,28 @@
+/* Quick Summary:
+em: Relative to the parent element's font size.
+rem: Relative to the root element's font size.
+vh: 1 Percentage of the viewport height.
+vw: 1 Percentage of the viewport width.
+These units help make designs more responsive and adaptable to different screen sizes and font settings. */
+
+/* html{
+    font-size: 10px;
+} */
+.box{
+    width:50vmax;
+    height:50vh;
+    border:2px solid black;
+}
+
+.box{
+    width:50vmin;
+    height:50vw;
+    border:2px solid red;
+}
+
+.para{
+    font-size: 2em;
+}
+.para{
+    font-size: 5rem;
+}

@@ -1,0 +1,80 @@
+.outerbox{
+    background-color: beige;
+    display: flex;
+    min-height: 400px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: start -> defalut */
+    /* justify-content: end -> defalut */
+    /* justify-content: center; */
+    /* for main axis alignment,main axis -> use justify-content: */
+    justify-content: start;
+    /* for cross axis alignment,cross-axis  -> use align-items */
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+/* .outerbox{
+    background-color: beige;
+    display: flex;
+    min-height: 400px;
+    flex-direction: column;
+    /* justify-content: start -> defalut */
+    /* justify-content: end -> defalut */
+    /* justify-content: center; */
+    
+    /* for cross axis alignment,main axis -> use align-items */
+    /* justify-content: start; */
+    /* for main axis alignment,cross-axis -> use justify-content: */
+    /* align-items: center; */
+/* } */ 
+.box{
+    background-color: blue;
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+}
+.box1{
+    /* align-self: self-start; */
+    /* flex-shrink: 0; */
+    /* this is a perfect syntax
+    grow shrink basis */
+    flex: 1 2 opx;
+}
+.box2{
+    flex-shrink: 2;
+    flex-grow: 2;
+    flex-basis: 0;
+}
+.box3{
+    /* to use extra space effectively */
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.box4{
+    flex: 1px;
+}
+.container{
+    display: flex;
+    flex-direction: column; 
+    /* flex-direction: row -> defalut; */
+}
+p{
+    padding: 10px;
+}
+.para1{
+    background-color: aqua;
+    flex: 1px;
+    order: 1;
+}
+.para2{
+    background-color: blanchedalmond;
+    flex: 1px;
+    order: 3;
+}
+.para3{
+    background-color: violet;
+    flex: 3px;
+    order: 2;
+}

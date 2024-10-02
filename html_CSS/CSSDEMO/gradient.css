@@ -1,0 +1,57 @@
+/* .box{
+    height:100px;
+    width:100px;
+    margin:auto;
+    background: repeating-linear-gradient(blue 10px,blue 20px,green 10px,green 30px);
+    position:relative;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    margin:auto;
+    background: repeating-radial-gradient(blue 10px,blue 20px,green 10px,green 30px)
+} */
+/* 1. Repeating Linear Gradient (Vertical Stripes) */
+.box { 
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background: repeating-linear-gradient(0deg, red 10px, green 20px);
+    position: relative;
+}
+/* 2. Repeating Linear Gradient (Diagonal Stripes) */
+.box1 {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background: repeating-linear-gradient(45deg, blue 10px, green 20px);
+}
+/* 3. Repeating Radial Gradient (Circular Pattern) */
+.box2 {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background: repeating-radial-gradient(circle, blue 10px, green 20px);
+}
+/* 4. Repeating Linear Gradient (Horizontal Stripes) */
+.box3 {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background: repeating-linear-gradient(90deg, blue 10px, green 20px);
+}
+/* 5. Radial Gradient with Different Color Stops */
+.box4 {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background: radial-gradient(circle, blue, green, yellow);
+}
+/* 6. Conic Gradient */
+.box5 {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background: conic-gradient(from 90deg, blue, green, yellow, blue);
+}
+

@@ -1,0 +1,36 @@
+ul{
+    list-style-image: url("/images/star.png");
+    /* list-style-position:outside; */
+    list-style: inside circle;
+}
+li{
+    margin: 10px;
+}
+ol{
+    list-style: lower-roman;
+}
+table{
+    width: 300px;
+    margin: auto;
+    border-spacing: 10px 20px;
+    border-collapse: collapse;
+}
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    border: 1px 2px solid black;
+}
+.amnt{
+    text-align: right;
+}
+tr:nth-child(even){
+    background-color: pink;
+}
+/* tfoot{
+    text-decoration: dashed;
+} */
